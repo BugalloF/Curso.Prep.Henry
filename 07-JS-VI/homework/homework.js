@@ -45,10 +45,10 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var newArray = array.map(function (array){
+  var newArrayy = array.map(function (array){
     return cb (array)
   })
-  return newArray
+  return newArrayy
 
 }
 
